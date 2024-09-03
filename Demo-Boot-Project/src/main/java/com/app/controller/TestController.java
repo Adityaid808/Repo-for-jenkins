@@ -17,6 +17,7 @@ public class TestController {
 		logger.info("Hello Adi...!!!");
 		
 		logger.info("My second commit changes after some problem...!!!");
+		logger.info("Add logger by aditya...!!!");
 		return new ResponseEntity<String>("Hello Aditya...!!!", HttpStatus.OK);
 	}
 	
