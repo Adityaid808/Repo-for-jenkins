@@ -15,6 +15,8 @@ public class TestController {
 	@GetMapping("/home")
 	public ResponseEntity<String> getMessage(){
 		logger.info("Hello Adi...!!!");
+		
+		logger.info("My second commit changes...!!!");
 		return new ResponseEntity<String>("Hello Aditya...!!!", HttpStatus.OK);
 	}
 	
