@@ -20,7 +20,7 @@ public class TestController {
 		logger.info("Add logger by aditya one more...!!!");
 		logger.info("Add logger by harsh one more...!!!");
 		logger.info("Hello pradnya ..!!!");
-		return new ResponseEntity<String>("Hello Aditya...!!!", HttpStatus.OK);
+		return new ResponseEntity<String>("Hello Aditya & Pradnya!!!", HttpStatus.OK);
 	}
 	
 	
