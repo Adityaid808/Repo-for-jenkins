@@ -21,7 +21,7 @@ public class TestController {
 		logger.info("Add logger by harsh one more...!!!");
 		logger.info("Hello samriddha ..!!!");
 		
-		return new ResponseEntity<String>("Hello Aditya...Good Morning....!!!", HttpStatus.OK);
+		return new ResponseEntity<String>("Hello Aditya and Sam...Good Morning....!!!", HttpStatus.OK);
 	}
 	
 	
